@@ -1,0 +1,181 @@
+.header {
+    padding: 2rem 0;
+}
+
+.header .header-content {
+    color: #FFF;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-content .avatar-box {
+    position: relative;
+}
+
+.header .header-content .avatar-box .avatar {
+    width: 50%;
+    border: 2px solid rgb(135, 207, 249);
+    margin: auto;
+}
+
+.header .header-content .avatar-box .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .header-content .background-header {
+    position: absolute;
+    width: 100%;
+    min-height: 65%;
+    background-color: rgb(135, 207, 249);
+    padding: 1rem 15px;
+    z-index: -1;
+}
+
+.ms-card {
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.ms-card .ms-card-header {
+    padding: 15px 0;
+}
+
+.ms-card .ms-card-header .ms-card-header-title {
+    width: 80%;
+    background-color: rgb(135, 207, 249);
+    padding: 5px;
+    padding-left: 15px;
+    color: #FFF;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ms-card .ms-card-body {
+    padding: 0 15px 15px 15px;
+}
+
+.infor-row {
+    padding-bottom: 0.5rem;
+}
+
+.infor-row .infor-title {
+    font-weight: bold;
+    color: rgb(135, 207, 249);
+}
+
+.infor-row .infor-icon {
+    color: rgb(135, 207, 249);
+    padding-right: 1rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+::ng-deep ngb-progressbar .progress .bg-info {
+    background-color: rgb(135, 207, 249) !important;
+}
+
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+.slideLeft{
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(100%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}		
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+	}	
+}
+
+@media only screen and (max-width: 768px){
+    .avatar-box {
+        background: linear-gradient(to bottom, #FFF 0%, #FFF 50%,#000000 50%,rgb(135, 207, 249) 50%,rgb(135, 207, 249) 100%);
+    }
+    .background-header {
+        position: inherit !important;
+        width: 100%;
+        height: 65%;
+        background-color: rgb(135, 207, 249);
+        z-index: 0;
+        text-align: center;
+        top: -1px;
+    }
+}
