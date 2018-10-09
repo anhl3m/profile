@@ -33,6 +33,7 @@
     padding: 1rem 15px;
 	z-index: -1;
 	left: 0;
+	align-self: center;
 }
 
 .ms-card {
