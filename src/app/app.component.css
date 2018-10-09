@@ -6,7 +6,8 @@
     color: #FFF;
     margin: 0;
     position: relative;
-    display: flex;
+	display: flex;
+	display: -webkit-flex;
     align-items: center;
 }
 
@@ -62,6 +63,7 @@
 .infor-row {
 	padding-bottom: 0.5rem;
 	display: inline-flex;
+	display: -webkit-inline-flex;
 	width: 100%;
 }
 
