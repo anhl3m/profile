@@ -31,7 +31,8 @@
     min-height: 65%;
     background-color: rgb(135, 207, 249);
     padding: 1rem 15px;
-    z-index: -1;
+	z-index: -1;
+	left: 0;
 }
 
 .ms-card {
@@ -165,8 +166,23 @@ p {
 	}	
 }
 
-@media only screen and (max-width: 768px){
-    .avatar-box {
+@media only screen and (min-width: 991px){
+    .avatar {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .avatar {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+	.avatar {
+		width: 50% !important;
+	}
+	.avatar-box {
         background: linear-gradient(to bottom, #FFF 0%, #FFF 50%,#000000 50%,rgb(135, 207, 249) 50%,rgb(135, 207, 249) 100%);
     }
     .background-header {
