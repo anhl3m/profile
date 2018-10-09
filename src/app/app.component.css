@@ -59,7 +59,9 @@
 }
 
 .infor-row {
-    padding-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: inline-flex;
+	width: 100%;
 }
 
 .infor-row .infor-title {
@@ -69,7 +71,17 @@
 
 .infor-row .infor-icon {
     color: rgb(135, 207, 249);
-    padding-right: 1rem;
+	width: 1.5rem;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.infor-row .text-overflow {
+	white-space: normal;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: calc(100% - 1.5rem);
 }
 
 p {
