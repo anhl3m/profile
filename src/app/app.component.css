@@ -8,7 +8,8 @@
     position: relative;
 	display: flex;
 	display: -webkit-flex;
-    align-items: center;
+	align-items: center;
+	-webkit-align-items: center;
 }
 
 .header .header-content .avatar-box {
@@ -29,7 +30,7 @@
 .header .header-content .background-header {
     position: absolute;
     width: 100%;
-    min-height: 65%;
+    /* min-height: 65%; */
     background-color: rgb(135, 207, 249);
     padding: 1rem 15px;
 	z-index: -1;
@@ -181,17 +182,17 @@ p {
 	}	
 }
 
-@media only screen and (min-width: 991px){
+@media only screen and (max-width: 991px){
     .avatar {
         width: 80% !important;
     }
 }
 
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){
     .avatar {
         width: 80% !important;
     }
-}
+} */
 
 @media only screen and (max-width: 767px){
 	.avatar {
