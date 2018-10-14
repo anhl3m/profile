@@ -23,36 +23,36 @@
           <p class="ms-card-header-title">Personal Information</p>
         </div>
         <div class="ms-card-body">
-          <div class="infor-row">
+          <div class="infor-row in-row">
             <span class="infor-icon">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </span>
             <span>0359868662</span>
           </div>
-          <div class="infor-row">
+          <div class="infor-row in-row">
             <span class="infor-icon">
               <i class="fa fa-birthday-cake" aria-hidden="true"></i>
             </span>
             <span class="text-overflow">15/06/1994</span>
           </div>
-          <div class="infor-row">
+          <div class="infor-row in-row">
             <span class="infor-icon">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
             <span class="text-overflow">minhanhle156@gmail.com</span>
           </div>
 
-          <div class="infor-row">
+          <div class="infor-row in-row">
             <span class="infor-icon">
               <i class="fa fa-map-marker" style="width: 24px; height: 16px;" aria-hidden="true"></i>
             </span>
             <span>Binh Thanh District, Ho Chi Minh City</span>
           </div>
-          <div class="infor-row">
+          <div class="infor-row in-row">
             <span class="infor-icon">
               <i class="fa fa-home" aria-hidden="true"></i>
             </span>
-            <span class="text-overflow"><a href="https://minhanhle.herokuapp.com/">https://minhanhle.herokuapp.com/</a></span>
+            <span class="text-overflow"><a href="https://minhanhle.herokuapp.com/">Visit me</a></span>
           </div>
         </div>
       </div>
@@ -82,13 +82,31 @@
           <div class="infor-row">
             <p>CSS</p>
             <p>
+              <ngb-progressbar type="info" [value]="60" height="10px"></ngb-progressbar>
+            </p>
+          </div>
+          <div class="infor-row">
+            <p>SASS</p>
+            <p>
               <ngb-progressbar type="info" [value]="55" height="10px"></ngb-progressbar>
             </p>
           </div>
           <div class="infor-row">
-            <p>NodeJS</p>
+            <p>Node.js</p>
+            <p>
+              <ngb-progressbar type="info" [value]="95" height="10px"></ngb-progressbar>
+            </p>
+          </div>
+          <div class="infor-row">
+            <p>Express.js</p>
             <p>
               <ngb-progressbar type="info" [value]="90" height="10px"></ngb-progressbar>
+            </p>
+          </div>
+          <div class="infor-row">
+            <p>Elasticsearch</p>
+            <p>
+              <ngb-progressbar type="info" [value]="60" height="10px"></ngb-progressbar>
             </p>
           </div>
           <div class="infor-row">
@@ -98,19 +116,19 @@
             </p>
           </div>
           <div class="infor-row">
-            <p>MySql</p>
-            <p>
-              <ngb-progressbar type="info" [value]="85" height="10px"></ngb-progressbar>
-            </p>
-          </div>
-          <div class="infor-row">
             <p>MongoDB</p>
             <p>
               <ngb-progressbar type="info" [value]="90" height="10px"></ngb-progressbar>
             </p>
           </div>
           <div class="infor-row">
-            <p>Elasticsearch</p>
+            <p>MySql</p>
+            <p>
+              <ngb-progressbar type="info" [value]="80" height="10px"></ngb-progressbar>
+            </p>
+          </div>
+          <div class="infor-row">
+            <p>SQL Server</p>
             <p>
               <ngb-progressbar type="info" [value]="60" height="10px"></ngb-progressbar>
             </p>
@@ -136,6 +154,22 @@
           </div>
         </div>
       </div>
+      <div class="ms-card slideLeft">
+        <div class="ms-card-header">
+          <p class="ms-card-header-title">Hobbies</p>
+        </div>
+        <div class="ms-card-body">
+          <div class="infor-row">
+            <p>Music</p>
+          </div>
+          <div class="infor-row">
+            <p>Travel</p>
+          </div>
+          <div class="infor-row">
+            <p>Research new technology</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-md-8">
       <div class="ms-card slideLeft">
@@ -146,10 +180,10 @@
           <div class="row infor-row">
             <div class="col-md-3 infor-title">2012 - 2017</div>
             <div class="col-md-9">
-              <p>Posts and telecommunications institute of technology Ho Chi Minh (PTIT HCM)</p>
+              <strong>Posts and Telecommunications Institute of Technology Ho Chi Minh (PTIT HCM)</strong>
               <p>Bachelor of Information Technology</p>
               <p>GPA: 2.97 / 4</p>
-              <p>Thesis: 7.51 / 10</p>
+              <p>Academic rating: Good</p>
             </div>
           </div>
         </div>
@@ -162,10 +196,42 @@
         </div>
         <div class="ms-card-body">
           <div class="row infor-row">
-            <div class="col-md-3 infor-title">Freb, 2017 - Present</div>
+            <div class="col-md-3 infor-title">May, 2016 - Aug, 2016</div>
             <div class="col-md-9">
-              <p>Web Developer</p>
-              <p>JANETO ICT</p>
+              <strong>Global Cybersoft (Vietname) JSC</strong>
+              <p class="text-bold-grey">INTERNSHIP DEVELOPER</p>
+              <ul>
+                <li>Learn layout web use HTML, SASS, Material</li>
+                <li>Learn SCRUM</li>
+                <li>Improve knowledge about AngularJS, Java,
+                  Spring and Unit Test.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row infor-row">
+            <div class="col-md-3 infor-title">Freb, 2017 - Mar, 2017</div>
+            <div class="col-md-9">
+              <strong>JANETO ICT</strong>
+              <p class="text-bold-grey">FRESHER DEVELOPER</p>
+              <ul>
+                <li>Learn Javascript, Angular, SOLID Design</li>
+                <li>Learn how to use Git</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row infor-row">
+            <div class="col-md-3 infor-title">Mar, 2017 - Present</div>
+            <div class="col-md-9">
+              <strong>JANETO ICT</strong>
+              <p class="text-bold-grey">WEB DEVELOPER</p>
+              <ul>
+                <li>Font-end: Javascript, TypeScript, Angular.js,
+                  Angular 2+, HTML, CSS, SASS, JQuery,
+                  Bootstrap.</li>
+                <li>Back-end: Nodejs, Express.js, RESTfull API,
+                  Elasticsearch, Migration.</li>
+                <li>Database: MongoDB, MySQL</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -180,25 +246,34 @@
           <div class="row infor-row">
             <div class="col-md-3 infor-title">Redwood</div>
             <div class="col-md-9">
-              <p>AngularJS, Bootstrap, NodeJS, Express, Elasticsearch, MongoDB</p>
-              <p>Full Stack</p>
               <p>6 Months</p>
+              <ul>
+                <li>Font-end: Layout website use AngularJS, Bootstrap, JQuery, HTML, SASS</li>
+                <li>Back-end: Apply Node.js, Express.js and Elasticsearch to write API, manage and
+                  authorize users. Handle data in database through migration.</li>
+                <li>Database: MongoDB.</li>
+              </ul>
             </div>
           </div>
           <div class="row infor-row">
             <div class="col-md-3 infor-title">MyKolor - Admin side</div>
             <div class="col-md-9">
-              <p>Angular 5, Bootstrap, NodeJS, Express, TypeScript, MongoDB</p>
-              <p>Font end - Support write migrate and optimization query</p>
               <p>6 Months</p>
+              <ul>
+                <li>Font-end: Layout website use Angular 5, Bootstrap, Nebular theme</li>
+                <li>Back-end: Support write migration and optimal queries with MongoDB database.</li>
+              </ul>
             </div>
           </div>
           <div class="row infor-row">
-            <div class="col-md-3 infor-title">DPIV</div>
+            <div class="col-md-3 infor-title">Guroos</div>
             <div class="col-md-9">
-              <p>Angular 4, Bootstrap</p>
-              <p>Font end</p>
               <p>4 Months</p>
+              <ul>
+                <li>Refactor app by structure angular 4.</li>
+                <li>Add new features and layout app by new design.</li>
+                <li>Write Unit Test.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -206,12 +281,16 @@
       <div class="ms-card slideLeft">
         <div class="ms-card-header">
           <div class="ms-card-header-title">
-            Hobbies
+            Additional Info
           </div>
         </div>
         <div class="ms-card-body">
-          <p>Travel</p>
-          <p>Reasearch new technology</p>
+          <ul>
+            <li>Good teamwork.</li>
+            <li>Understanding of common data structure and algorithm.</li>
+            <li>Familiar with Linux operating system.</li>
+            <li>Have strong foundation on problem-solving skills.</li>
+          </ul>
         </div>
       </div>
     </div>
